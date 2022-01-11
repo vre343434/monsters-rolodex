@@ -7,6 +7,6 @@ export const SearchBox = props => (
     className='search-box'
     type='search'
     placeholder='search monsters'
-    onChange={props.onSearchChange}
+    onChange={props.handleChange}
   />
 );
